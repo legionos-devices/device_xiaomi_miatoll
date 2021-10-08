@@ -21,8 +21,8 @@ cc_library_static {
         "init.cpp"
     ],
     include_dirs: [
-        "system/core/base/include",
-        "system/core/init"
+        "system/core/init",
+        "system/libbase/include"
     ],
     whole_static_libs: [
         "libinit_xiaomi_sm6250_common"
